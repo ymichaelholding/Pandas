@@ -2,7 +2,7 @@ import configparser
 import cx_Oracle
 
 config = configparser.ConfigParser()
-configfile='C:/Users/Michael/PycharmProjects/Python/lib/db_properties.ini'
+configfile='/db_properties.ini'
 test = config.read(configfile)
 
 
