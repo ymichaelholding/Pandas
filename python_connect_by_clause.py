@@ -14,7 +14,7 @@ connect by prior employee_id = MANAGER_ID
 #import the pandas packages
 # to read the data from employees
 import pandas as pd
-df = pd.read_csv(r'C:\Users\Michael Yonas\Downloads\table.csv')
+df = pd.read_csv(r'Downloads\table.csv')
 print(df.head(10))
 
 #declare the varaibels
